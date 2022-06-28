@@ -1,0 +1,33 @@
+CUSTOMER
+INDEX = https://arcturusworkshop.000webhostapp.com/pages/customer/index.php
+GET = 
+CREATE = 
+DELETE = 
+UPDATE =
+
+TEKNISI
+INDEX = https://arcturusworkshop.000webhostapp.com/pages/teknisi/index.php
+GET = https://arcturusworkshop.000webhostapp.com/pages/customer/get.php?id_customer=${this.id_customer}
+CREATE = https://arcturusworkshop.000webhostapp.com/pages/customer/create.php
+DELETE = https://arcturusworkshop.000webhostapp.com/pages/customer/delete.php
+UPDATE = https://arcturusworkshop.000webhostapp.com/pages/customer/update.php
+
+SERVICE
+INDEX = https://arcturusworkshop.000webhostapp.com/pages/service/index.php
+GET = https://arcturusworkshop.000webhostapp.com/pages/service/get.php?kode=${this.kode}
+CREATE = https://arcturusworkshop.000webhostapp.com/pages/service/create.php
+DELETE = https://arcturusworkshop.000webhostapp.com/pages/service/delete.php
+UPDATE = https://arcturusworkshop.000webhostapp.com/pages/service/update.php
+
+SUPPLIER
+INDEX = https://arcturusworkshop.000webhostapp.com/pages/supplier/index.php
+CREATE = https://arcturusworkshop.000webhostapp.com/pages/supplier/create.php
+DELETE = https://arcturusworkshop.000webhostapp.com/pages/supplier/delete.php
+UPDATE = https://arcturusworkshop.000webhostapp.com/pages/supplier/update.php
+
+JENIS KELAMIN
+INDEX = https://arcturusworkshop.000webhostapp.com/pages/jenis_kelamin/index.php
+CREATE = https://arcturusworkshop.000webhostapp.com/pages/jenis_kelamin/create.php
+DELETE = https://arcturusworkshop.000webhostapp.com/pages/jenis_kelamin/delete.php
+UPDATE = https://arcturusworkshop.000webhostapp.com/pages/jenis_kelamin/update.php
+
